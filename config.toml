@@ -1,0 +1,60 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Bg16"
+  subtitle    = ""
+
+  cover       = ""
+  description = "This is the description."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  #twitterName = "faketryghost"
+  #fbName = "fakeghost"
+  #githubName = "eueung"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Bg16"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Project"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "about"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "google"
+  url = "https://google.com/"
+  weight = 95
